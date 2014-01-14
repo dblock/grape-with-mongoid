@@ -1,0 +1,17 @@
+development:
+  sessions:
+    default:
+      database: grape-with-mongoid-development
+      hosts:
+        - localhost:27017
+  options:
+    raise_not_found_error: false
+
+test:
+  sessions:
+    default:
+      database: grape-with-mongoid-test
+      hosts:
+        - localhost:27017
+  options:
+    raise_not_found_error: false
