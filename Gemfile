@@ -20,9 +20,3 @@ group :test do
   gem 'rspec', '~> 2.13.0'
   gem 'rack-test', '~> 0.6.2'
 end
-
-platform :rbx do
-  gem 'rubysl', '~> 2.0'
-  gem 'racc'
-  gem 'iconv'
-end
